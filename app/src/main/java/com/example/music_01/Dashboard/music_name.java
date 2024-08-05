@@ -1,5 +1,6 @@
 package com.example.music_01.Dashboard;
 //用来存储音乐名的数据类
+//先说一下啊，这玩意完全就是面向结果编程，显示个名字和图片，具体的逻辑没做，就是看个样子
 public class music_name
 {
     public static String[] music_name = {
