@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义一个名为 spacing 的间距值，大小为 16dp -->
+    <dimen name="spacing">5px</dimen>
+</resources>

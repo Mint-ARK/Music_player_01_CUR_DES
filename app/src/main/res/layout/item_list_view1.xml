@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/list_view1_picture"
+                android:src="@drawable/ic_home"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/list_view1_text"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:text="我正在尝试完成对文本框的编辑和预览，请尽可能多的输入数据以预览详细信息。" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/list_view1_picture1"
+                android:src="@drawable/ic_home"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:id="@+id/list_view1_text1"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="我正在尝试完成对文本框的编辑和预览，请尽可能多的输入数据以预览详细信息。"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/list_view1_picture2"
+                android:src="@drawable/ic_home"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/list_view1_text2"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:text="我正在尝试完成对文本框的编辑和预览，请尽可能多的输入数据以预览详细信息。" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/list_view1_picture3"
+                android:src="@drawable/ic_home"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:id="@+id/list_view1_text3"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="我正在尝试完成对文本框的编辑和预览，请尽可能多的输入数据以预览详细信息。"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

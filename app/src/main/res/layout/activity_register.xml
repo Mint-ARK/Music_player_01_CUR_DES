@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#DC2222"
+        app:titleTextColor="@color/white"
+        app:title="注册"
+        app:navigationIcon="@drawable/baseline_arrow_back_ios_24"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#DC2222"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DC2222">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mp31"
+            android:scaleType="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:text="注册" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="26dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/login_et_bg">
+            <ImageView
+                android:layout_width="24dp"
+                android:src="@drawable/user"
+                android:layout_gravity="center_vertical"
+                android:layout_height="24dp" />
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="输入用户名"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_et_bg">
+            <ImageView
+                android:layout_width="24dp"
+                android:src="@drawable/locker"
+                android:layout_gravity="center_vertical"
+                android:layout_height="24dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_password"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="输入密码"
+                android:inputType="textPassword"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/register_button"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#DC2222"
+            android:text="注册"/>
+
+    </LinearLayout>
+
+</LinearLayout>

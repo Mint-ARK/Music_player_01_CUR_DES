@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RecycleView的单个条目布局文件-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_home"
+        android:id="@+id/list_view_icon">
+    </ImageView>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/list_view_icon"
+        android:id="@+id/list_view_title"
+        android:text="试作型标题"
+        android:gravity="center"
+        android:textSize="16dp">
+    </TextView>
+
+</RelativeLayout>
